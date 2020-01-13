@@ -55,6 +55,8 @@ header div img {
 	border: none;
 }
 
+.list ul a:hover {color: black;}
+
 .the-team,
 .Pied-Piper-Coin {
 	border-right: 3px solid white;
@@ -72,13 +74,13 @@ header div img {
 	background-repeat: round;
 	width: 100%;
 	text-align: center;
+	display: flex;
 }
 
 .headered div {
-	display: inline-block;
-	padding-top: 10%;
+	display: flex;
 	max-width: 1219px;
-	height: 83px;
+	margin: auto;
 }
 
 .headered div p {	
@@ -91,12 +93,14 @@ header div img {
 #problem {
 	background: #EEEEEE;
 	max-width: 100%;
-	text-align: center;
 }
 
 #problem div {
 	max-width: 1219px;
-	display: inline-block;
+	display: flex;
+	margin: auto;
+	flex-flow: row wrap;
+	justify-content: center;
 }
 
 #problem h1 {
@@ -104,9 +108,9 @@ header div img {
 	font-weight: bold;
 	font-size: 64px;
 	line-height: 75px;
-	text-align: center;
 	color: #007765;
 	margin-bottom: 15px;
+	align-self: center;
 } 
 
 #problem p {
@@ -118,17 +122,29 @@ header div img {
 	text-align: left;
 }
 
+#problem p:last-child {
+	align-self: flex-start;
+}
+
 .picture1 {
 	background-image: url("image1.png");
 	background-repeat: round;
 	height: 500px;
 	width: 100%;
 	text-align: center;
+	display: flex;
 }
 
 .picture1 div {
 	max-width: 1219px;
-	display: inline-block;
+	display: flex;
+	margin: auto;
+	align-items: center;
+}
+
+.picture1 div div {
+	width: 90%;
+	margin: auto;
 }
 
 .picture1 p {
@@ -138,7 +154,6 @@ header div img {
 	line-height: 56px;
 	text-align: center;
 	color: #FFFFFF;
-	padding: 9%;
 }
 
 
@@ -151,7 +166,13 @@ header div img {
 
 #coin div {
 	max-width: 1219px;
-	display: inline-block;
+	margin: auto;
+}
+
+ #coin img {
+ 	float: left;
+	width: 100px;
+	margin: 20px;
 }
 
 #coin h2 {
@@ -160,8 +181,8 @@ header div img {
 	line-height: 75px;
 	text-align: center;
 	color: #007765;
-	padding: 50px;
 	margin-bottom: 50px;
+	width: 100%;
 }
 
 #coin p {
@@ -174,12 +195,6 @@ header div img {
 	text-align: left;
 }
 
- #coin img {
- 	float: left;
-	width: 100px;
-	margin: 20px;
-}
-
 #team {
 	background: #EEEEEE;
 	width: 100%;
@@ -188,7 +203,9 @@ header div img {
 
 #team div {
 	max-width: 1219px;
-	display: inline-block;
+	display: flex;
+	margin: auto;
+	flex-flow: row wrap;
 }
 
 #team img {
@@ -203,8 +220,8 @@ header div img {
 	font-size: 64px;
 	line-height: 75px;
 	color: #007765;
-	padding: 3%;
-	margin-bottom: 5%;
+	width: 100%;
+	padding-top: 20px;
 }
 
 #team div div {
@@ -264,6 +281,16 @@ a {
 	text-decoration: none;
 }
 
+@media (max-width: 720px) {
+	header {height: 140px;}
+
+}
+
+@media (max-width: 400px) {
+	.list ul {column-count: 1;}
+	.list ul li {border: none; border-bottom: 2px solid white;}
+	.logo {padding-top: 70px;}
+}
 
 
 
