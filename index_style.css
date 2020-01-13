@@ -1,0 +1,273 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Roboto;
+	font-style: normal;
+}
+
+header {
+	background: #007765;
+	width: 100%;
+	text-align: center;
+	height: 70px;
+}
+
+.container {
+	max-width: 1219px;
+	margin: auto;
+}
+
+.logo {
+	width: 200px;
+	position: relative;
+	height: 70px;
+	float: left;
+}
+
+header div img {
+	position: absolute;
+	left: 3%;
+	right: 75.55%;
+	top: 20%;
+	bottom: 0.09%;
+}
+
+.list {
+	display: inline;
+	float: right;
+	margin-top: 15px;
+}
+.list ul {
+	list-style-type: none;
+	column-count: 3;
+}
+.list ul li {
+	color: white;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	border-right: 3px solid white;
+	padding: 5px;
+	padding-right: 10px;
+}
+
+.list ul li:last-child {
+	border: none;
+}
+
+.the-team,
+.Pied-Piper-Coin {
+	border-right: 3px solid white;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.headered {
+	height: 403px;
+	background-image: url("images/image.png");
+	background-repeat: round;
+	width: 100%;
+	text-align: center;
+}
+
+.headered div {
+	display: inline-block;
+	padding-top: 10%;
+	max-width: 1219px;
+	height: 83px;
+}
+
+.headered div p {	
+	font-weight: 500;
+	font-size: 72px;
+	line-height: 84px;
+	color: #FFFFFF;
+}
+
+#problem {
+	background: #EEEEEE;
+	max-width: 100%;
+	text-align: center;
+}
+
+#problem div {
+	max-width: 1219px;
+	display: inline-block;
+}
+
+#problem h1 {
+	padding: 48px;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 75px;
+	text-align: center;
+	color: #007765;
+	margin-bottom: 15px;
+} 
+
+#problem p {
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 37px;
+	color: #000000;
+	padding: 30px;
+	text-align: left;
+}
+
+.picture1 {
+	background-image: url("images/image1.png");
+	background-repeat: round;
+	height: 500px;
+	width: 100%;
+	text-align: center;
+}
+
+.picture1 div {
+	max-width: 1219px;
+	display: inline-block;
+}
+
+.picture1 p {
+	font-style: italic;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 9%;
+}
+
+
+#coin {
+	background: #FFFFFF;
+	margin-bottom: 90px;
+	width: 100%;
+	text-align: center;
+}
+
+#coin div {
+	max-width: 1219px;
+	display: inline-block;
+}
+
+#coin h2 {
+	font-weight: bolder;
+	font-size: 64px;
+	line-height: 75px;
+	text-align: center;
+	color: #007765;
+	padding: 50px;
+	margin-bottom: 50px;
+}
+
+#coin p {
+	max-width: 1110px;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 37px;
+	color: #000000;
+	padding: 20px;
+	text-align: left;
+}
+
+ #coin img {
+ 	float: left;
+	width: 100px;
+	margin: 20px;
+}
+
+#team {
+	background: #EEEEEE;
+	width: 100%;
+	text-align: center;
+}
+
+#team div {
+	max-width: 1219px;
+	display: inline-block;
+}
+
+#team img {
+	width: 168px;
+	height: 168px;
+	text-align: center;
+	margin-left: 25px;
+}
+
+#team h2 {
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 75px;
+	color: #007765;
+	padding: 3%;
+	margin-bottom: 5%;
+}
+
+#team div div {
+	display: inline-block;
+	max-width: 210px;
+	height: 270px;
+	margin: 50px 90px;
+}
+
+.name {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	color: #007765;
+}
+
+.work {
+	font-style: italic;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: #000000;
+}
+
+
+footer {
+	width: 100%;
+	height: 150px;
+	background: #333333;
+	text-align: center;
+}
+
+footer .foot {
+	max-width: 1219px;
+	display: flex;
+	margin: auto;
+}
+
+footer p {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+footer .foot2 {
+	max-width: 450px;
+	padding: 40px;
+	margin: auto;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
