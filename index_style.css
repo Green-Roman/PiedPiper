@@ -212,7 +212,6 @@ header div img {
 	width: 168px;
 	height: 168px;
 	text-align: center;
-	margin-left: 25px;
 }
 
 #team h2 {
@@ -290,6 +289,7 @@ a {
 	.list ul {column-count: 1;}
 	.list ul li {border: none; border-bottom: 2px solid white;}
 	.logo {padding-top: 70px;}
+	footer {height: 170px;}
 }
 
 
