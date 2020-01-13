@@ -68,7 +68,7 @@ header div img {
 
 .headered {
 	height: 403px;
-	background-image: url("images/image.png");
+	background-image: url("image.png");
 	background-repeat: round;
 	width: 100%;
 	text-align: center;
@@ -119,7 +119,7 @@ header div img {
 }
 
 .picture1 {
-	background-image: url("images/image1.png");
+	background-image: url("image1.png");
 	background-repeat: round;
 	height: 500px;
 	width: 100%;
